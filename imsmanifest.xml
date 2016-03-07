@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd" xml:base="resources" identifier="MECHATRONICS" version="0.1">
-  <organizations>
+  <organizations default="FULL_PACKAGE">
     <organization identifier="FULL_PACKAGE">
       <title>Mechatronic full package</title>
-      <item identifier="item-fc85260a-4c50-8c93-9385-f11d59cdf28e"/>
+      <item identifier="C1"/>
+    </organization>
+    <organization identifier="SMSCP">
+      <title>Siemens Mechatronic Systems Certification Program</title>
+      <item identifier="SMSCP_LEVEL_1" identifierref="R1" isvisible="true" parameters="">
+        <title>Mechatronic Systems Assistant</title>
+        <item identifier="SMSCP_L1_C1_ELECTRO_COMPONENTS" identifierref="R1" isvisible="true" parameters="">
+          <title>Electrical Components</title>
+        </item>
+        <item identifier="SMSCP_L1_C2_MECH_DRIVES" isvisible="true" parameters="">
+          <title>Mechanical Components and Electrical Drives</title>
+        </item>
+        <item identifier="SMSCP_L1_C3_FLUID" identifierref="R1" isvisible="true" parameters="">
+          <title>(Electro) Pneumatic and Hydraulic Control Circuits</title>
+        </item>
+        <item identifier="SMSCP_L1_C4_PLC" identifierref="R1" isvisible="true">
+          <title>Digital Fundamentals and Programmable Logic Controllers</title>
+        </item>
+      </item>
+      <item identifier="SMSCP_LEVEL_2" isvisible="true">
+        <title>Mechatronic Systems Associate</title>
+        <item identifier="SMSCP_L2_C1_PROCESS_CONTROL" isvisible="true">
+          <title>Process Control Technologies</title>
+        </item>
+        <item identifier="SMSCP_L2_C2_TIA_INTRO" isvisible="true" parameters="">
+          <title>Introduction to Totally Integrated Automation</title>
+        </item>
+        <item identifier="SMSCP_L2_C3_AUTOMATION" identifierref="R1" isvisible="true" parameters="">
+          <title>Automation Systems</title>
+        </item>
+        <item identifier="SMSCP_L2_C4_MOTOR_CONTROL" isvisible="true">
+          <title>Motor Control</title>
+        </item>
+        <item identifier="SMSCP_L2_C5_MECH_MACHINES" identifierref="R1" isvisible="true">
+          <title>Mechanics and Machine Elements</title>
+        </item>
+        <item identifier="SMSCP_L2_C6_PRODUCTRION" isvisible="true">
+          <title>Manufacturing Processes</title>
+        </item>
+      </item>
+      <item identifier="SMSCP_LEVEL_3" isvisible="true">
+        <title>Mechatronic Systems Professional</title>
+        <item identifier="SMSCP_L3_CA_PM" identifierref="R1" isvisible="true">
+          <title>Project and Process Management</title>
+        </item>
+        <item identifier="SMSCP_L3_CA_PRJ" identifierref="R1" isvisible="true">
+          <title>Mechatronic System Project</title>
+        </item>
+      </item>
     </organization>
   </organizations>
   <resources xml:base="">
-    <resource xml:base="" href="" identifier="res-f1e4e99a-0d94-2c4a-aef3-d4f4f33bb527" type="webcontent" adlcp:scormType="sco">
+    <resource xml:base="" href="" identifier="R1" type="webcontent" adlcp:scormType="sco">
       <metadata>
         <imsmd:lom>
           <imsmd:educational>
