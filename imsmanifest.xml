@@ -73,6 +73,60 @@
         </item>
       </item>
     </organization>
+    <organization identifier="FESTO_SERT">
+      <title>FESTO Mechatronics Certification Program</title>
+      <item identifier="item-fb6fae3d-7e5b-b051-10a2-a82906e37c26">
+        <title>Level 1</title>
+        <item identifier="item-120fa269-c7bf-af65-0f8c-6d1cc6c8291c">
+          <title>Basic Pneumatics</title>
+        </item>
+        <item identifier="item-31bfbfa0-bbf3-775b-7e53-8c71e08951e2">
+          <title>Advanced Pneumatics</title>
+        </item>
+        <item identifier="item-5a7abfb1-1779-ec6d-30de-855d09fae0b0">
+          <title>Electro-Pneumatics</title>
+        </item>
+        <item identifier="item-cef03565-0608-1d8a-e602-607016e6f8c1">
+          <title>Basic Hydraulics</title>
+        </item>
+        <item identifier="item-f812fbd0-e429-80a3-8f0c-95a92242a109">
+          <title>Advanced Hydraulics</title>
+        </item>
+        <item identifier="item-bede836d-4462-49a4-5436-952b3156703d">
+          <title>Electro-Hydraulics</title>
+        </item>
+        <item identifier="item-05910f59-0d63-cff1-32b5-e6714fd66c98">
+          <title>Sensors</title>
+        </item>
+        <item identifier="item-6c1b5f8f-2d60-1481-af8e-f70b489010b1">
+          <title>PLC control</title>
+        </item>
+        <item identifier="item-ea1f4a21-fce4-ecb2-94d3-69e543537d02">
+          <title>Industrial Electricity</title>
+        </item>
+        <item identifier="item-7dc4cf36-890f-6213-c784-e82e12cc3c7d">
+          <title>Motor Controls</title>
+        </item>
+      </item>
+      <item identifier="item-b0183817-2526-e60a-9e67-ca840190903c">
+        <title>Level 2</title>
+        <item identifier="item-b42e8ec2-5dd3-e9c9-6e64-3ab1c3e387cb">
+          <title>Fluid power</title>
+        </item>
+        <item identifier="item-7c71e142-ef0e-7042-4a2d-e90da6ebaa63">
+          <title>Automation</title>
+        </item>
+      </item>
+      <item identifier="item-5227c12b-7855-fdc1-1124-d7001a723e43">
+        <title>Level 3</title>
+        <item identifier="item-5f628485-8e73-cc82-97a0-f957a93b89d6">
+          <title>Mechatronics</title>
+        </item>
+      </item>
+    </organization>
+    <organization identifier="AMKR_MECH_PROGRAM">
+      <title>ArcelorMittal Kriviy Rih Mechatronic Preparation Programm</title>
+    </organization>
   </organizations>
   <resources xml:base=""/>
 </manifest>
