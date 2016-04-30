@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd" xml:base="resources" identifier="MECHATRONICS" version="0.1">
-  <organizations default="FULL_PACKAGE">
+  <organizations default="MECHATRONIC_FULL_SET">
     <organization identifier="MECHATRONIC_FULL_SET">
       <title>Mechatronic full package</title>
       <item identifier="MECHANIC" identifierref="ELECTRICAL" isvisible="true">
@@ -75,57 +75,189 @@
     </organization>
     <organization identifier="FESTO_SERT">
       <title>FESTO Mechatronics Certification Program</title>
-      <item identifier="item-fb6fae3d-7e5b-b051-10a2-a82906e37c26">
+      <item identifier="FESTO_SERT_LEVEL_1">
         <title>Level 1</title>
-        <item identifier="item-120fa269-c7bf-af65-0f8c-6d1cc6c8291c">
+        <item identifier="FESTO_PNEUMO_BASIC">
           <title>Basic Pneumatics</title>
         </item>
-        <item identifier="item-31bfbfa0-bbf3-775b-7e53-8c71e08951e2">
+        <item identifier="FESTO_ADVANCED_PNEUMO">
           <title>Advanced Pneumatics</title>
         </item>
-        <item identifier="item-5a7abfb1-1779-ec6d-30de-855d09fae0b0">
+        <item identifier="FESTO_ELECTRO_PNEUMO">
           <title>Electro-Pneumatics</title>
         </item>
-        <item identifier="item-cef03565-0608-1d8a-e602-607016e6f8c1">
+        <item identifier="FESTO_HYDRO_BASIC">
           <title>Basic Hydraulics</title>
         </item>
-        <item identifier="item-f812fbd0-e429-80a3-8f0c-95a92242a109">
+        <item identifier="FESTO_ADVANCED_HYDRO">
           <title>Advanced Hydraulics</title>
         </item>
-        <item identifier="item-bede836d-4462-49a4-5436-952b3156703d">
+        <item identifier="FESTO_ELECTRO_HYDRO">
           <title>Electro-Hydraulics</title>
         </item>
-        <item identifier="item-05910f59-0d63-cff1-32b5-e6714fd66c98">
+        <item identifier="FESTO_SENSORS">
           <title>Sensors</title>
         </item>
-        <item identifier="item-6c1b5f8f-2d60-1481-af8e-f70b489010b1">
+        <item identifier="FESTO_PLC_CONTROL">
           <title>PLC control</title>
         </item>
-        <item identifier="item-ea1f4a21-fce4-ecb2-94d3-69e543537d02">
+        <item identifier="FESTO_INDUSTRIAL_ELECTRO">
           <title>Industrial Electricity</title>
         </item>
-        <item identifier="item-7dc4cf36-890f-6213-c784-e82e12cc3c7d">
+        <item identifier="FESTO_MOTOR_CONTROLS">
           <title>Motor Controls</title>
         </item>
       </item>
-      <item identifier="item-b0183817-2526-e60a-9e67-ca840190903c">
+      <item identifier="FESTO_SERT_LEVEL_2">
         <title>Level 2</title>
-        <item identifier="item-b42e8ec2-5dd3-e9c9-6e64-3ab1c3e387cb">
+        <item identifier="FESTO_FLUID_POWER">
           <title>Fluid power</title>
         </item>
-        <item identifier="item-7c71e142-ef0e-7042-4a2d-e90da6ebaa63">
+        <item identifier="FESTO_AUTOMATION">
           <title>Automation</title>
         </item>
       </item>
-      <item identifier="item-5227c12b-7855-fdc1-1124-d7001a723e43">
+      <item identifier="FESTO_SERT_LEVEL_3">
         <title>Level 3</title>
-        <item identifier="item-5f628485-8e73-cc82-97a0-f957a93b89d6">
+        <item identifier="FESTO_MECHATRONICS">
           <title>Mechatronics</title>
         </item>
       </item>
     </organization>
     <organization identifier="AMKR_MECH_PROGRAM">
-      <title>ArcelorMittal Kriviy Rih Mechatronic Preparation Programm</title>
+      <title>ArcelorMittal Kriviy Rih Mechatronic Preparation Program</title>
+      <item identifier="AMKR_BASIS_MECHATRONIC">
+        <title>Introdusion to mechatronics</title>
+        <metadata>
+          <imsmd:lom>
+            <imsmd:relation>
+              <imsmd:kind>
+                <imsmd:source>LOMv1.0</imsmd:source>
+                <imsmd:value>isbasedon</imsmd:value>
+              </imsmd:kind>
+              <imsmd:resource>
+                <imsmd:identifier>
+                  <imsmd:catalog uniqueElementName="">INTERNAL_ORG_ITEM</imsmd:catalog>
+                  <imsmd:entry>FESTO_AUT211_UA</imsmd:entry>
+                </imsmd:identifier>
+              </imsmd:resource>
+            </imsmd:relation>
+          </imsmd:lom>
+        </metadata>
+      </item>
+      <item identifier="item-736b6b53-521a-ac1e-22bf-1cb39c65d582">
+        <title>Basic industrial pneumatic &amp; hudraulic</title>
+      </item>
+      <item identifier="item-8d40157a-b5ee-f3da-6520-969b1d55abb2">
+        <title>Hydraulic&amp;Pneumatic industrial systems with electrical relay control</title>
+      </item>
+      <item identifier="item-d9254d22-0031-e103-e71d-4b00173e560d">
+        <title>Proportional hudraulic</title>
+      </item>
+      <item identifier="item-e1319e32-9eda-2d37-7178-bea45d64165f">
+        <title>Mobile hydraulic</title>
+      </item>
+      <item identifier="item-46381778-86be-8824-fb9f-3599cb111ba2">
+        <title>STL programming FESTO PLC</title>
+      </item>
+      <item identifier="item-51df9381-d375-d35b-5743-211b732342b6">
+        <title>Fequrency regulators - SIEMENS drive control</title>
+      </item>
+      <item identifier="item-de9bb24d-79c2-9f3b-e8d5-1fcae177d720">
+        <title>Today methods of technical diagnostics</title>
+      </item>
+      <item identifier="item-cac3bc6f-8111-b8ec-ffb0-d2c90fde1437">
+        <title>Maintenance &amp; Repair of industrial equipment</title>
+      </item>
+      <item identifier="item-c4538fc2-5821-84a6-0d3e-66c8675e0bc4">
+        <title>Project - hydraulic systems at COB</title>
+      </item>
+    </organization>
+    <organization identifier="PMMI_SERT">
+      <title>PMMI Mechatronic sertification</title>
+      <item identifier="item-db303b7d-b662-52c9-9c5b-3c09b905c827"/>
+    </organization>
+    <organization identifier="FESTO_COURCES">
+      <title>FESTO_COURCES</title>
+      <item identifier="FESTO_AUT211_UA" identifierref="FESTO_AUT211_ISO_DRAWINGS" parameters="">
+        <title>Основы механотроники</title>
+        <item identifier="FESTO_AUT211_BASIC">
+          <title>Базовые принципы механотроники.</title>
+        </item>
+        <item identifier="FESTO_AUT211_BASIC_MECH_FLUID">
+          <title>Основы механики, пневматики и гидравлики</title>
+        </item>
+        <item identifier="FESTO_AUT211_PNEUMO_ITEMS">
+          <title>Компоненты пневматических систем</title>
+          <item identifier="FESTO_AUT211_PNEUMO_VALVES">
+            <title>Kлапаны (распределители)</title>
+          </item>
+          <item identifier="FESTO_AUT211_PNEUMO_PRESURE_REG">
+            <title>Регуляторы давления</title>
+          </item>
+          <item identifier="FESTO_AUT211_ACTUATORS">
+            <title>Исполнительные механизмы</title>
+          </item>
+        </item>
+        <item identifier="FESTO_AUT211_ISO_DRAWINGS">
+          <title>Условные обозначения элементов по системе ISO</title>
+          <item identifier="item-b57ba0d6-b773-49a2-0066-02bfd25c1ece">
+            <title>Mетодика подбора</title>
+          </item>
+          <item identifier="item-6c4d2eb3-f9c5-5e91-53de-26e69bc7bae5">
+            <title>принципы работы</title>
+          </item>
+          <item identifier="item-3013282b-13c1-763c-02a3-94fe06cde624">
+            <title>Техническое обслуживание и особенности эксплуатациb</title>
+          </item>
+        </item>
+        <item identifier="item-6ff24651-3ac6-81c5-b7da-60d4272426d7">
+          <title>Контроль движения с помощью электрических цепей</title>
+        </item>
+        <item identifier="item-27352500-1b3a-edcd-fa0a-189551d1fec7">
+          <title>Электрические элементы контроля положения</title>
+          <item identifier="item-164c94c4-1cd4-f455-0915-2da9d3dec0fd">
+            <title>Методика подбора и особенности эксплуатации контактных и бесконтактных датчиков</title>
+          </item>
+          <item identifier="item-4f719047-03f6-1670-befa-0f7776fa0c75">
+            <title>Герконы</title>
+          </item>
+          <item identifier="item-40c018ca-fe81-8cf4-1c9d-40caf7b8bc9f">
+            <title>индуктивные</title>
+          </item>
+          <item identifier="item-80cfc1f8-126c-e889-385c-f7e2d6c2c891">
+            <title>емкостные</title>
+          </item>
+          <item identifier="item-516f33b8-4e68-fb8e-8709-76bf6ed178df">
+            <title>оптические</title>
+          </item>
+        </item>
+        <item identifier="item-0ecb0fa3-8bef-a7c6-d395-249edf6aabcf">
+          <title>Контроль движения с помощью контроллеров</title>
+        </item>
+        <item identifier="item-63f52ae6-62f4-7d39-d1fc-fafe60b527eb">
+          <title>Контроллеры Фесто, назначение и область применения</title>
+        </item>
+        <item identifier="item-e2f6ba83-afc0-cdbf-b6a8-d85b2f52b22c">
+          <title>Особенности пошагового программирования</title>
+        </item>
+        <item identifier="item-83b7463c-fd57-dae2-c3da-3675c572fea3">
+          <title>Различные типы датчиков</title>
+        </item>
+        <item identifier="item-c3964207-a702-d51b-a2f7-1f5d6bbdc4a3">
+          <title>Промышленная автоматизация с использованием станций MPS</title>
+        </item>
+        <item identifier="item-45c67880-38d5-a5d7-57b8-cdff1e6aaec7">
+          <title>Язык программирования STL: команды программирования</title>
+        </item>
+        <item identifier="item-05740703-4668-6b26-54f7-7aabff4d2e31">
+          <title>Практические занятия по составлению, монтажу и отладке промышленных робототехнических систем управления с использованием контроллера на базе нескольких пневматических устройств</title>
+        </item>
+        <item identifier="item-b2f11ee6-c8ab-b015-b5d5-98e6ce5fcc85">
+          <title>Краткий обзор инноваций в автоматике. Новинки FЕSТО.</title>
+        </item>
+      </item>
+      <item identifier="FESTO_HY132"/>
     </organization>
   </organizations>
   <resources xml:base=""/>
